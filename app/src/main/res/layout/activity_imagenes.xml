@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E330F"
+    tools:context=".Imagenes_activity">
+
+    <TextView
+        android:id="@+id/lbl_votosMadrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="24dp"
+        android:text="Votos Madrid"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bilbao2" />
+
+    <TextView
+        android:id="@+id/lbl_votosValencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:text="Votos Valencia"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_barcelona2" />
+
+    <ImageView
+        android:id="@+id/img_bilbao"
+        android:layout_width="170dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="?selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_bilbao"
+        app:srcCompat="@drawable/bilbao" />
+
+    <ImageView
+        android:id="@+id/img_bilbao2"
+        android:layout_width="170dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:background="?selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_madrid"
+        app:srcCompat="@drawable/madrid" />
+
+    <TextView
+        android:id="@+id/lbl_madrid"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:text="Madrid"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bilbao" />
+
+    <TextView
+        android:id="@+id/lbl_valencia"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="68dp"
+        android:text="Valencia"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_barcelona" />
+
+    <TextView
+        android:id="@+id/lbl_bilbao"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="76dp"
+        android:text="Bilbao"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_bilbao2"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="68dp"
+        android:text="Barcelona"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_bilbao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1F6A21"
+        android:text="Votar Bilbao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_votosBilbao" />
+
+    <Button
+        android:id="@+id/btn_valencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#1F6A21"
+        android:text="Votar Valencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_votosValencia" />
+
+    <Button
+        android:id="@+id/btn_madrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#1F6A21"
+        android:text="Votar Madrid"
+        app:layout_constraintEnd_toStartOf="@+id/btn_valencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_votosMadrid" />
+
+    <Button
+        android:id="@+id/btn_barcelona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#1F6A21"
+        android:text="Votar Barcelona"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_votosBarcelona" />
+
+    <TextView
+        android:id="@+id/lbl_votosBarcelona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:text="Votos Barcelona"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_barcelona" />
+
+    <ImageView
+        android:id="@+id/img_barcelona"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="?selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_bilbao"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_bilbao2"
+        app:srcCompat="@drawable/barcelona" />
+
+    <ImageView
+        android:id="@+id/img_barcelona2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="?selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_bilbao2"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_valencia"
+        app:srcCompat="@drawable/valencia" />
+
+    <TextView
+        android:id="@+id/lbl_votosBilbao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Votos Bilbao"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bilbao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ex1Ev_Ibai_Alvarez</string>
+    <string name="bilbao">Bilbao</string>
+    <string name="madrid">Madrid</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="valencia">Valencia</string>
+    <string name="des_bilbao">Bilbao es una ciudad vasca de 354 000 habitantes, capital económica del País Vasco, es una Villa de fuerte tradición industrial, que se fundó en el año 1300 gracias a las minas de hierro existentes en la Provincia.</string>
+    <string name="des_madrid">Madrid es una ciudad cosmopolita, fiel a sus costumbres, cultura y a su arte, pero a su vez es un lugar moderno, alberga centros culturales, económicos y políticos de primer orden en Europa. Su oferta cultural y de ocio abarca desde la entrada gratuita a museos hasta los ambientes VIP más exclusivos.</string>
+    <string name="des_barcelona">Barcelona es la capital de Cataluña. Se encuentra situada en el noreste de España, a escasa distancia de Francia y de los Pirineos. La ciudad roza una población de 1.700.000 habitantes, siendo la ciudad más poblada de España por detrás de Madrid.</string>
+    <string name="des_valencia">Valencia es la tercera ciudad más grande de España y ofrece turismo para todos los gustos. La ciudad reúne la cultura histórica y moderna. En el casco antiguo (El Carmen) encontrarás una catedral gótica, un mercado modernista de alimentos y un palacio rococó a poca distancia uno del otro.</string>
+</resources>
